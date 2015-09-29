@@ -1,0 +1,13 @@
+{
+  "name": "Scheduler",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.4.2",
+    "express": "~4.5.1",
+    "mongoose": "^3.8.35",
+    "nodemon": "^1.7.0"
+  }
+}
