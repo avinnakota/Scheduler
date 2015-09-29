@@ -15,7 +15,7 @@ angular.
 			.state('students', {
 					url: '/students', 
 					templateUrl: 'states/students.html',
-					ctrl: 'studentsCtrl'
+					controller: 'studentsCtrl'
 			})
 
 			.state('teachers', {

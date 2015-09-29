@@ -11,8 +11,13 @@ app.use(bodyParser.json());
 app.use(express.static(__dirname + '/client'));
 
 app.listen(port);
+
 console.log('listening on port: ', port);
 
 app.get('/students', function(req,res){
-	var teacher = req.body;
+	console.log(req.body);
+	//get the response of the day
+	//look up the teacher
+		//if they exist then search for teacher.day['day'][slot].available?
+			//if available then assign the students name to be assigned to that slot
 });

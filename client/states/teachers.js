@@ -1,4 +1,4 @@
-angular.module('scheduler.teachers', [])
+angular.module('scheduler.teachers', ['ui.router'])
 .controller('teachersCtrl', function($scope, $state){
 
 });
